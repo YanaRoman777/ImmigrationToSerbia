@@ -1,0 +1,30 @@
+.footer__subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    min-height: 100px;
+    color: #2AB7F5;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+@media all and (max-width: 1200px)  {
+    .footer__subtitle {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media all and (max-width: 1024px)  {
+    .footer__subtitle {
+        min-height: auto;
+    }
+}
+
+@media all and (max-width: 600px)  {
+    .footer__subtitle {
+        font-weight: 500;
+        align-self: end;
+    }
+}

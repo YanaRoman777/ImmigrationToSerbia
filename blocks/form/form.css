@@ -1,0 +1,18 @@
+.form {
+    max-width: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.form span {
+    padding-left: 10px;
+}
+
+@media all and (max-width: 350px) {
+    .form {
+        max-width: 280px;
+    }
+}

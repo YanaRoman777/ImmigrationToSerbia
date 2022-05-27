@@ -1,0 +1,13 @@
+.button_price {
+    background: #22A4DE;
+    justify-self: center;
+}
+
+.button_price:hover {
+    background: #2AB7F5;
+    box-shadow: 0px 4px 40px rgba(34, 164, 222, 0.64);
+}
+
+.button_price:active {
+    background:  #1094CF;
+}

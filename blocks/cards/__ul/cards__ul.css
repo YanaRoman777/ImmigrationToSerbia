@@ -1,0 +1,27 @@
+.cards__ul {
+    padding-inline-start: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+    align-self: start;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 36px;
+}
+
+
+@media all and (max-width: 1200px)  {
+    .cards__ul {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+
+@media all and (max-width: 600px)  {
+    .cards__ul {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}

@@ -1,0 +1,9 @@
+.body {
+    margin: 0;
+    background: fixed url(../../images/SHU_Flugreise_trotz_.jpg)  no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}

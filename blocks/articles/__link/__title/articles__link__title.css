@@ -1,0 +1,37 @@
+.articles__link__title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    min-height: 76px;
+    color: #F01847;
+    text-shadow: 1px 1px 1px rgb(94, 93, 93);
+    transition-property:color;
+    transition-duration:3s;
+    transition-timing-function: ease;
+}
+
+.articles__link:hover .articles__link__title {
+    color: #c2003a;
+}
+
+@media all and (max-width: 1200px)  {
+    .articles__link__title {
+        font-size: 20px;
+        line-height: 32px;
+        min-height: 56px;
+    }
+}
+
+@media all and (max-width: 1024px)  {
+    .articles__link__title {
+        min-height: 32px;
+    }
+}
+/* 
+@media all and (max-width: 600px)  {
+    .articles__link__title {
+        font-size: 20px;
+        line-height: 32px;
+    }
+} */

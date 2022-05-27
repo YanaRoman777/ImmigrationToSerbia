@@ -1,0 +1,6 @@
+
+@media all and (max-width: 600px)  {
+    .price__title {
+        text-align: center;
+    }
+}

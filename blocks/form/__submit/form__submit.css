@@ -1,0 +1,21 @@
+.form__submit {
+    margin-top: 8px;
+    font-family: 'Proxima Nova', 'Arial', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    max-width: 100%;
+    outline: none;
+    box-sizing: border-box;
+    background: #F01847;
+    padding-top: auto;
+}
+
+@media all and (max-width: 640px) {
+    .form__submit {
+        font-size: 14px;
+        line-height: 17px;
+        height: 39px;
+    }
+}

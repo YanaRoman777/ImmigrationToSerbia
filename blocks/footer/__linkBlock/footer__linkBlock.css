@@ -1,0 +1,12 @@
+.footer__linkBlock {
+    display: grid;
+    grid-template-columns: repeat(5, max-content);
+    justify-content: baseline;
+    gap: 20px;
+}
+
+@media all and (max-width: 1024px) {
+    .footer__linkBlock {
+        justify-self: center;
+    }
+}

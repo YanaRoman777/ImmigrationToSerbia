@@ -1,0 +1,21 @@
+.header {
+    display: grid;
+    gap: 32px;
+    align-content: space-around;
+    justify-content: space-between;
+    min-height: 100vh;
+    position: relative;
+}
+
+@media all and (max-width: 1024px)  {
+    .header {
+        justify-content: center;
+        gap: 24px;
+    }
+}
+
+@media all and (max-width: 600px)  {
+    .header {
+        gap: 12px;
+    }
+}

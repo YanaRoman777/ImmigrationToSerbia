@@ -1,0 +1,29 @@
+.price__subtitle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    min-height: 76px;
+    color: #F01847;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+@media all and (max-width: 1200px)  {
+    .price__subtitle {
+        font-size: 20px;
+        line-height: 32px;
+        min-height: 56px;
+    }
+}
+
+@media all and (max-width: 1024px)  {
+    .price__subtitle {
+        min-height: 32px;
+    }
+}
+
+@media all and (max-width: 600px)  {
+    .price__subtitle {
+        font-weight: 600;
+    }
+}

@@ -1,0 +1,8 @@
+.price__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: relative;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+}

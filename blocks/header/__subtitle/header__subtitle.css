@@ -1,0 +1,26 @@
+.header__subtitle {
+    animation: opacity 4s;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    margin: 32px 0;
+    max-width: 790px;
+    width: 100%;
+}
+
+@media all and (max-width: 1024px)  {
+    .header__subtitle {
+        font-size: 24px;
+        line-height: 40px;
+        max-width: 100%;
+        text-align: center;
+        margin: 12px 0;
+    }
+}
+
+@media all and (max-width: 600px)  {
+    .header__subtitle {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}

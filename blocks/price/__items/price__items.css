@@ -1,0 +1,21 @@
+.price__items {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    gap: 10px;
+    box-sizing: border-box;
+}
+
+.price__items:last-child {
+    background-color: rgba(255, 255, 255, 0.178);
+    padding: 10px;
+}
+
+@media all and (max-width: 1024px)  {
+    .price__items:first-child {
+        grid-template-columns: 1fr;
+    }
+    .price__items:last-child {
+        grid-template-columns: 1fr min-content;
+        gap: 10px;
+    }
+}

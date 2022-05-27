@@ -1,0 +1,28 @@
+.articles__link__paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    transition-property:text-shadow;
+    transition-duration:3s;
+    transition-timing-function: ease;
+}
+
+.articles__link:hover .articles__link__paragraph {
+    text-shadow: 1px 1px 1px rgb(94, 93, 93);
+}
+
+@media all and (max-width: 1200px)  {
+    .articles__link__paragraph {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+/* @media all and (max-width: 600px)  {
+    .articles__link__paragraph {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+    }
+} */

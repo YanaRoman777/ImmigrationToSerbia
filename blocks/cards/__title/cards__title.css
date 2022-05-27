@@ -1,0 +1,30 @@
+.cards__title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+    min-height: 100px;
+    color: #2AB7F5;
+    text-shadow: 1px 1px 1px rgb(46, 46, 46);
+}
+
+@media all and (max-width: 1200px)  {
+    .cards__title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+@media all and (max-width: 1024px)  {
+    .cards__title {
+        min-height: auto;
+    }
+}
+
+@media all and (max-width: 600px)  {
+    .cards__title {
+        font-weight: 500;
+        align-self: end;
+    }
+}

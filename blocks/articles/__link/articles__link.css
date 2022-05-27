@@ -1,0 +1,23 @@
+.articles__link {
+    display: grid;
+    grid-template-rows: 300px repeat(2, max-content);
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    align-content: start;
+    gap: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+@media all and (max-width: 1200px)  {
+    .articles__link {
+        gap: 10px;
+    }
+}
+
+@media all and (max-width: 1024px)  {
+    .articles__link {
+        text-align: center;
+    }
+}

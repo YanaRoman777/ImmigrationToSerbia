@@ -1,0 +1,5 @@
+.articles__title {
+    grid-area: title;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(61, 61, 61);
+}

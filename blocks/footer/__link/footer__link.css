@@ -1,0 +1,7 @@
+.footer__link {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}

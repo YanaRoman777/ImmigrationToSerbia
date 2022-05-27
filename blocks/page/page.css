@@ -1,0 +1,9 @@
+.page {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    position: relative;
+}

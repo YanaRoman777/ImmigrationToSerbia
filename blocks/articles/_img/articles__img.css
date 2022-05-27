@@ -1,0 +1,9 @@
+.articles__img {
+    max-height: 300px;
+    transition-property:transform;
+    transition-duration:3s;
+    transition-timing-function: ease;
+}
+.articles__link:hover .articles__imgBlock .articles__img {
+    transform: scale(1.2, 1.2); 
+}

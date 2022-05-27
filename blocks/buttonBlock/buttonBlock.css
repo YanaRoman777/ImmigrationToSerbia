@@ -1,0 +1,40 @@
+.buttonBlock {
+    display: grid;
+    grid-template-columns: max-content  max-content;
+    gap: 32px;
+    align-content: center;
+    justify-content: space-between;
+    min-height: 90px;
+}
+
+.header .buttonBlock {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+    justify-content: end;
+}
+
+@media all and (max-width: 1200px)  {
+    .header .buttonBlock {
+        top: 30px;
+        right: 40px;
+        gap: 20px;
+    }
+    .buttonBlock {
+        gap: 20px;
+    }
+}
+
+@media all and (max-width: 1024px)  {
+    .buttonBlock {
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+
+    .header .buttonBlock {
+        position: relative;
+        top: auto;
+        right: auto;
+        justify-content: center;
+    }
+}
