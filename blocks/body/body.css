@@ -3,14 +3,15 @@
     /* background: fixed no-repeat;
     background-image: url(../../images/SHU_Flugreise_trotz_.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr; */
+    grid-template-columns: 1fr;
+    position: relative;
 }
 
-
 /* 
+
 @media all and (max-width: 600px)  {
     .body {
         background-position: 60% 0%;
