@@ -1,5 +1,6 @@
 .articles__img {
     max-height: 300px;
+    border-radius: 24px;
     transition-property:transform;
     transition-duration:3s;
     transition-timing-function: ease;
