@@ -5,3 +5,12 @@
     justify-content: center;
     align-content: center;
 }
+
+.footer__ps__link {
+    color: #FFF;
+}
+
+.footer__link:hover, .footer__ps__link:hover {
+    opacity: .5;
+    cursor: pointer;
+}

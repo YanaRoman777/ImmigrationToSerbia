@@ -7,7 +7,7 @@
 
 
 @media all and (max-width: 1200px)  {
-    .price__paragraph {
+    .footer__paragraph {
         font-size: 20px;
         line-height: 30px;
     }
@@ -15,7 +15,7 @@
 
 
 @media all and (max-width: 600px)  {
-    .price__paragraph {
+    .footer__paragraph {
         font-weight: 400;
         font-size: 18px;
         line-height: 22px;

@@ -46,6 +46,8 @@
 @import url(../blocks/footer/__icon/footer__icon.css);
 @import url(../blocks/footer/__linkBlock/footer__linkBlock.css);
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
+@import url(../blocks/footer/__linkBlock/footer__linkBlock.css);
+@import url(../blocks/footer/__ps/footer__ps.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__input/_type/form__input_type_error.css);

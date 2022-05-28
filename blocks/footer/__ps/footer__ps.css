@@ -1,0 +1,23 @@
+.footer__ps {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: start;
+    padding-top: 20px;
+}
+
+
+@media all and (max-width: 1200px)  {
+    .footer__ps {
+        font-size: 14px;
+        line-height: 24px;
+    }
+}
+
+
+@media all and (max-width: 600px)  {
+    .footer__ps {
+        padding-top: 10px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+}

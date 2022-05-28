@@ -10,6 +10,7 @@
     box-sizing: border-box;
     background: #F01847;
     padding-top: auto;
+    border: none;
 }
 
 @media all and (max-width: 640px) {
