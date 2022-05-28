@@ -6,7 +6,7 @@
 }
 
 .price__items:last-child {
-    background-color: rgba(0, 0, 0, 0.178);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
 }
 
