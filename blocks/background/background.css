@@ -1,11 +1,18 @@
 .background {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    background: fixed no-repeat;
+    background-image: url(../../images/SHU_Flugreise_trotz_.jpg);
+    background-size: cover;
+    background-position: center;
     display: grid;
-    justify-content: space-between;
-    padding: 0;
+    justify-content: center;
+    grid-template-columns: 1fr;
+}
+
+
+
+@media all and (max-width: 600px)  {
+    .background {
+        background-position: 60% 0%;
+    }
 }
