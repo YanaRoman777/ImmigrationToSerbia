@@ -28,6 +28,7 @@
 @import url(../blocks/articles/__imgBlock/articles__imgBlock.css);
 @import url(../blocks/articles/__imgBlock/__shadow/articles__imgBlock__shadow.css);
 @import url(../blocks/articles/_img/articles__img.css);
+@import url(../blocks/articles/_img/_width/articles__img_width.css);
 @import url(../blocks/articles/__title/articles__title.css);
 @import url(../blocks/articles/__link/__title/articles__link__title.css);
 @import url(../blocks/articles/__link/__paragraph/articles__link__paragraph.css);

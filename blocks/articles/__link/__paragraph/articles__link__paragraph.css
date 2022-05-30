@@ -19,10 +19,6 @@
     }
 }
 
-/* @media all and (max-width: 600px)  {
-    .articles__link__paragraph {
-        font-weight: 400;
-        font-size: 20px;
-        line-height: 32px;
-    }
-} */
+.articles__link__paragraph span {
+    font-weight: 600;
+}

@@ -16,8 +16,6 @@
     grid-template-columns: 1fr; */
 }
 
-
-
 @media all and (max-width: 600px)  {
     .background {
         background-position: 60% 0%;
